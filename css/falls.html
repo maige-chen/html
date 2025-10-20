@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/huge-orange.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0" />
+  <title>css.falls | masonry</title>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+  <style>
+      .masonry-container {
+          column-count: 5;
+          column-gap: 10px;
+          max-width: 1400px;
+          margin: 0 auto;
+      }
+      .masonry-item {
+          break-inside: avoid;/* 避免元素被分割到不同列 */
+          margin-bottom: 10px;
+          background: #fff;
+          border-radius: 8px;
+          overflow: hidden;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      }
+
+      @media (max-width: 1024px) {
+          .masonry-container {
+              column-count: 4;
+          }
+      }
+      @media (max-width: 768px) {
+          .masonry-container {
+              column-count: 3;
+          }
+      }
+
+      @media (max-width: 480px) {
+          .masonry-container {
+              column-count: 2;
+          }
+      }
+  </style>
+</head>
+<body>
+  <h1>welcome!</h1>
+  <div class="masonry-container">
+    <div class="card masonry-item">
+      <img src="https://picsum.photos/400/300?random=1">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="masonry-item ">
+      <img src="https://fastly.picsum.photos/id/160/400/500.jpg?hmac=XebB2D-ez4KTio9LXReLxMcmqwMInKvZzV3RcERN22g" alt="图片">
+      <div class="content ">
+        <h3>瀑布流项目 2</h3>
+        <p>使用CSS多列布局实现，简单高效但元素是按列优先排列的。</p>
+      </div>
+    </div>
+
+    <div class="masonry-item">
+      <img src="https://picsum.photos/400/400?random=3" style="width: 100%" alt="图片">
+      <div class="content">
+        <h3>瀑布流项目 3</h3>
+        <p>适合图片墙、笔记展示等场景。</p>
+      </div>
+    </div>
+
+    <div class="masonry-item">
+      <img src="https://picsum.photos/400/350?random=4" alt="图片">
+      <div class="content">
+        <h3>瀑布流项目 4</h3>
+        <p>响应式设计，在不同屏幕尺寸下自动调整列数。</p>
+      </div>
+    </div>
+
+    <div class="masonry-item">
+      <img src="https://picsum.photos/400/600?random=5" alt="图片">
+      <div class="content">
+        <h3>瀑布流项目 5</h3>
+        <p>通过break-inside: avoid避免元素被分割到不同列。</p>
+      </div>
+    </div>
+
+    <div class="masonry-item">
+      <img src="https://picsum.photos/400/450?random=6" alt="图片">
+      <div class="content">
+        <h3>瀑布流项目 6</h3>
+        <p>添加适当的阴影和圆角提升视觉效果。</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
