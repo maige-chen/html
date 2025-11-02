@@ -1,0 +1,1 @@
+import{l as e,t,v as n}from"./index-O2sFX3ad.js";var r={};function i(t,r){return n(),e(`div`,null,`注册`)}var a=t(r,[[`render`,i]]);export{a as default};

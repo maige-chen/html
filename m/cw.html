@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0" />
+    <title>管理后台</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/vant@4.9.21/lib/index.css" type="text/css" />
+    <script src="/common/finger.js"></script>
+    <script type="text/javascript">
+      const BASE_URL = window.location.protocol + "//" + window.location.host;
+      const LSK = {
+        apps: "M_apps",
+        me: "M_me",
+        home: "M_home",
+        backurl: "M_backurl",
+        allStore: "M_allStore"
+      };
+      const Empty = {
+        relationApp: {
+          merchantId: "",
+          storeId: "",
+          groupId: "",
+          roles: 0,
+          app: "",
+          appTitle: "",
+        },
+        merchant: {
+          coTitle: "",
+          app: "",
+          appTitle: "",
+          roles: 0,
+          t: "",
+        },
+      };
+    </script>
+    <script type="module" crossorigin src="/m/cw/main-Daeym9Qn.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

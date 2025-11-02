@@ -1,0 +1,1 @@
+const s={deleteById:(e,l)=>{for(let t=0;t<e.length;t++)if(e[t].id==l){e.splice(t,1);break}},toIdFlat:(e,l)=>{let t=new Map;for(let i=0;i<e.length;i++){const n=e[i];n&&t.set(String(n.id),n[l])}return t},ikMap:(e,l)=>{let t=new Map;if(e==null)return t;for(let i=0;i<e.length;i++){const n=e[i];if(!n)continue;const o=String(n[l]);n.idx=i,t.set(o,n)}return t}};export{s as A};
