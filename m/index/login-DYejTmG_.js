@@ -1,0 +1,1 @@
+import{b as o}from"./api-VRXDL6XW.js";o.defaults.transformRequest=[function(r,t){return t["Content-Type"]="application/json",JSON.stringify(r)}];const n=r=>o.post("/m/login",r),s=r=>o.post("/m/register",r);export{n as d,s as r};
