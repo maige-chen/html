@@ -1,1 +1,0 @@
-import{T as a}from"./Tabbar-CoMle4e3.js";import{d as o,c as r,g as t,a as n,o as s}from"./index-D7_wT6D8.js";const l=o({__name:"Index.page",setup(p){return(m,e)=>(s(),r("div",null,[e[0]||(e[0]=t(" user ",-1)),n(a)]))}});export{l as default};

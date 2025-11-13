@@ -1,0 +1,1 @@
+import{T as a}from"./Tabbar-BcwsWeK7.js";import{d as o,c as r,g as t,a as n,o as s}from"./index-eYmFY_OQ.js";const l=o({__name:"Index.page",setup(p){return(m,e)=>(s(),r("div",null,[e[0]||(e[0]=t(" user ",-1)),n(a)]))}});export{l as default};

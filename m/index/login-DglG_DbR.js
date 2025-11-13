@@ -1,1 +1,0 @@
-import{b as o}from"./api-O4CYIcjd.js";o.defaults.transformRequest=[function(r,t){return t["Content-Type"]="application/json",JSON.stringify(r)}];const n=r=>o.post("/m/login",r),s=r=>o.post("/m/register",r);export{n as d,s as r};

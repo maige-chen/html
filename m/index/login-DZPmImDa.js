@@ -1,0 +1,1 @@
+import{b as o}from"./api-Cp7J2pUi.js";o.defaults.transformRequest=[function(r,t){return t["Content-Type"]="application/json",JSON.stringify(r)}];const n=r=>o.post("/m/login",r),s=r=>o.post("/m/register",r);export{n as d,s as r};
