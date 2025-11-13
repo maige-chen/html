@@ -1,1 +1,0 @@
-import{_ as o,c,a as e,F as r,r as n,o as _}from"./index-D0kWruKY.js";const s={};function l(i,m){const a=n("van-nav-bar"),t=n("van-cell");return _(),c(r,null,[e(a,{title:"管理后台"}),e(t,{title:"商家管理",icon:"gift-card","is-link":"",to:"/m/index"})],64)}const d=o(s,[["render",l]]);export{d as default};
