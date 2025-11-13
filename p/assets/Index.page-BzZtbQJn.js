@@ -1,0 +1,1 @@
+import{_ as a,c,a as n,F as r,r as t,o as s}from"./index-D7_wT6D8.js";const _={};function l(i,m){const o=t("van-nav-bar"),e=t("van-cell");return s(),c(r,null,[n(o,{title:"管理后台"}),n(e,{title:"商家管理",icon:"gift-card","is-link":"",to:"/m/index"}),n(e,{title:"用户管理",icon:"contact","is-link":"",to:"/u/index"})],64)}const p=a(_,[["render",l]]);export{p as default};

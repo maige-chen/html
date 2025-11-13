@@ -1,0 +1,1 @@
+import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{b as t,c as a,e as s,f as l,q as f}from"./main-CXNK52Lh.js";const c={};function p(n,e){const o=t("van-nav-bar");return s(),a("div",null,[l(o,{title:"工资条","left-arrow":"",onClickLeft:e[0]||(e[0]=m=>n.$router.push("/"))}),e[1]||(e[1]=f("span",null,"工资条",-1))])}const u=r(c,[["render",p]]);export{u as default};

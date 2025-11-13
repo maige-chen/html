@@ -1,1 +1,0 @@
-import{b as s}from"./api-B0tRvhRj.js";s.defaults.transformRequest=[function(t,r){return r["Content-Type"]="application/json",JSON.stringify(t)}];const o=t=>s.post("/m/login",t),i=async t=>(await s.post("/m/register",t)).data;export{o as d,i as r};
