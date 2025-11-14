@@ -1,1 +1,0 @@
-import{T as a}from"./Tabbar-BcwsWeK7.js";import{d as t,b as o,c as s,o as r,g as n,a as c,t as i}from"./index-eYmFY_OQ.js";const d=t({__name:"Invite.page",setup(p){const e=o(!1);return(l,m)=>(r(),s("div",null,[n(" invite "+i(e.value)+" ",1),c(a)]))}});export{d as default};
